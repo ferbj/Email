@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario Envio</title>
+    <meta charset="utf-8">
+</head>
+    <body>
+
+<form action="contact.php" method="post" style="width:400px; padding:50px;">
+<fieldset>
+    <legend>Introduzca datos requeridos</legend>
+<label for "nombre">Nombre y Apellido</label>
+    <input type="text" name="nombre" placeholder="Nombre y apellido" id="nombre"required><br><br>
+    
+<label for "correo">Email</label>    
+    <input type="email" name="correo" placeholder="Correo" id="correo" required><br><br>
+<label for "sele">Seleccione una opcion</label>
+<select name="sele">
+    <option value="op1">op1</option>
+    <option value="op2">op2</option>
+    <option value="op3">op3</option>
+</select>
+    
+    <br><br>
+<label for "mensaje">Mensaje</label>
+    <textarea name="mensaje" placeholder="Mensaje" required maxlength="500" rows=15 cols=35 id="mensaje"></textarea><br><br>
+
+<input type="submit" value="Enviar">
+</fieldset>
+</form> 
+</body>
+</html>
